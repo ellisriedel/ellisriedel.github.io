@@ -322,15 +322,34 @@ h6 {
   font-size: 1.2rem;
   text-align: left;
 }
+.marriott-text > a {
+  color: #fff;
+  text-decoration: underline;
+}
+.marriott-text > a:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  text-decoration: none;
+}
 
 .callout {
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/middle-pic.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/middle-pic.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/nyc.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/nyc.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+}
+@media (min-width: 992px) {
+  .callout {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/middle-pic.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/middle-pic-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
 }
 
 .callout h2 {
@@ -338,6 +357,10 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+.btn-margin-top {
+  margin-top: 20px;
 }
 
 .portfolio-item {
