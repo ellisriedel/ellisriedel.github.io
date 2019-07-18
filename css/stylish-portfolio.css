@@ -266,7 +266,7 @@ h6 {
   }
 }
 
-#rsvp {
+/*#rsvp {
   background: url("../img/lb-banner.jpg");
   background-size: cover;
 }
@@ -283,6 +283,22 @@ h6 {
   font-size: 2rem;
   margin-top: 20px;
   text-shadow: 1px 1px 3px black;
+}*/
+
+#schedule p {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+#schedule h2 {
+  text-align: left;
+}
+
+.addy {
+  text-align: left;
+  margin-left: 50px;
+  font-style: italic;
 }
 
 .sub-details {
